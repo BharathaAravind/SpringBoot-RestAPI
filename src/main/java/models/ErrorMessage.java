@@ -1,7 +1,7 @@
 package models;
 
 public class ErrorMessage {
-	
+
 	private String errorMessage;
 
 	public ErrorMessage(String errorMessage) {

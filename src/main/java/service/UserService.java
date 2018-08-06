@@ -23,7 +23,7 @@ public class UserService {
 		return userDao.getAllUsers();
 	}
 
-	public User getUser(UUID userId) {
+	public User getUser(Integer userId) {
 		return userDao.getUser(userId);
 	}
 
@@ -31,8 +31,10 @@ public class UserService {
 		return userDao.updateUser(user);
 	}
 
-	public User removeUser(UUID userId) {
-		return userDao.removeUser(userId);
+	public User removeUser(Integer userId) {
+		User user = new User();
+		userDao.removeUser(userId);
+		return user;
 	}
 
 	public int insertUser(User user) {

@@ -8,7 +8,6 @@ import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.Test;
 
-import dao.FakeDataDao;
 import dao.UserDao;
 
 public class FakeDataDaoTests {
@@ -17,7 +16,7 @@ public class FakeDataDaoTests {
 
 	@Before
 	public void setUp() throws Exception {
-		userDao = new FakeDataDao();
+	//	userDao = new FakeDataDao();
 	}
 
 	@Test

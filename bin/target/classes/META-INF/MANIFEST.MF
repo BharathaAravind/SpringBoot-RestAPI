@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Learning-Spring-Boot
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: kanda
+Implementation-Vendor-Id: com.abharatha
+Build-Jdk: 1.8.0_151
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/Learning-Spring-Boot
+Created-By: Maven Integration for Eclipse
+
